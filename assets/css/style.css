@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(60deg,  #FCEFCF,  #ffdd85);
+    height: 100vh;
+}
+
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    color: #41204D;
+}
+
+.question-index{
+    background-color: #FFB27E;
+    width: 50%;
+}
+
+
+.quiz .answer-button button {
+    background-color: #FFB27E;
+}
+
+.quiz .answer-button button:hover{
+    background-color: #fe954e;
+}
+
+#next-btn{
+    background: #e88563;
+    display: none;
+}
